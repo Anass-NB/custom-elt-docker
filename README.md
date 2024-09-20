@@ -22,11 +22,6 @@ Before running this pipeline, ensure you have the following installed on your ma
 - [Airflow](https://airflow.apache.org/docs/apache-airflow/stable/installation/index.html)
 - [DBT](https://docs.getdbt.com/docs/get-started/installation)
 
-## Project Structure
-│── README.md # Project documentation │── Dockerfile # Dockerfile to containerize Airflow and DBT │── docker-compose.yml # Docker Compose file for running services │── dags/ │ └── elt_pipeline.py # Airflow DAG to orchestrate the ELT pipeline │── dbt_project/ │ └── dbt_project.yml # DBT project configuration │ └── models/ # DBT models (SQL transformation scripts) │── requirements.txt # Python dependencies for Airflow │── scripts/ │ └── extract.py # Script to extract data from source PostgreSQL │ └── load.py # Script to load data into destination PostgreSQL └── tests/ └── test_pipeline.py # Unit tests for the pipeline
-
-
-
 
 
 ## Getting Started
@@ -36,17 +31,4 @@ Before running this pipeline, ensure you have the following installed on your ma
    git clone [https://github.com/yourusername/elt-pipeline-python-docker.git](https://github.com/Anass-NB/custom-elt-docke)
    cd custom-elt-docker
    docker-compose up
-
-
-
-
-
-
-
-
-
-
-
-
-
 
