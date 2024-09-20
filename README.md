@@ -28,7 +28,7 @@ Before running this pipeline, ensure you have the following installed on your ma
 
 1. **Clone the Repository**
    ```bash
-   git clone [https://github.com/yourusername/elt-pipeline-python-docker.git](https://github.com/Anass-NB/custom-elt-docke)
+   git clone https://github.com/Anass-NB/custom-elt-docker
    cd custom-elt-docker
    docker-compose up
 
